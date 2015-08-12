@@ -57,9 +57,9 @@ def write(array):
     return
 
 
-def init_array():
-    array = ( [ [ [ 0 for _ in range(3) ] for _ in range(128) ]
-            for _ in range(64) ] )
+def init_array(row, col):
+    array = ( [ [ [ 0 for _ in range(3) ] for _ in range(col) ]
+            for _ in range(row) ] )
     return array
 
 
