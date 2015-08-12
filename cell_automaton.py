@@ -1,6 +1,9 @@
 import py_rpi
 
-grid = py_rpi.init_array()
+rows = 32
+cols = 128
+
+grid = py_rpi.init_array(rows, cols)
 next = grid
 
 boards_in_series = 2
