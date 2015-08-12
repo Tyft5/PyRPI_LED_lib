@@ -49,7 +49,7 @@ _Parameters_
 - series: the number of boards that are connected in series (chained)
 - pwm: a boolean (or 1 or 0) indicating whether or not pulse width modulation should be used. Currently not implemented 
 
-.
+___
 
 TO DO:
 - PWM
