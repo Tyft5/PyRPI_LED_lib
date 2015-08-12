@@ -27,8 +27,8 @@ _Parameters_
 - row: the number of rows (first "dimension") desired for the array
 - col: the number of columns (second "dimension") desired for the array
   
-Implementation: init_array() creates a list of lists of lists, which can be accessed in python simply by chaining brackets
-
+Implementation: init_array() creates a list of lists of lists, which can be accessed in python simply by chaining brackets  
+___  
   
 __py_rpi.write(array)__  
 Writes the image implicit to `array` to the LED board.
@@ -37,8 +37,9 @@ Each (x, y) coordinate represents an RGB LED on the board.
 The layers 0, 1, and 2 indicate whether or not the red, green, and blue LED's should be lit up, respectively.
 
 _Parameters_
-- array: an array containing a pattern to be written to the board. The dimensions of the array should represent the dimensions of the conglomerate LED board as it appears (e.g. 4 boards in a 2x2 arrangement is 64x128).
-
+- array: an array containing a pattern to be written to the board. The dimensions of the array should represent the dimensions of the conglomerate LED board as it appears (e.g. 4 boards in a 2x2 arrangement is 64x128).  
+  
+___
 
 __py_rpi.start(function, series=1, pwm=False)__  
 Starts the process of running the user program and writing to the board. Should be invoked after the user function is defined.
